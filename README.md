@@ -24,6 +24,7 @@ Tell me if this was implemented earlier.
     11: power
     12: (
     13: )
+    14: }
 
 ## Input style
 Two arrays as an input:
@@ -35,7 +36,16 @@ Two arrays as an input:
     type: int
     size: any
     data: IDs to differentiate between operators and numbers.
+  ### Special functions
+  The mathematical functions such as sin, cos, !(fact), should be represented as their ID along with their metadata and their scope should end with a '}'.
   ### Example
     Expression: 1.6/(4+2*3)*log6(2.3/3-1)
-    Array 1: [1.6, 0,  0, 4, 0, 2, 0, 3,  0, 0, 6,  0, 2.3, 0, 3, 0, 1,  0]
-    Array 2: [  0, 4, 12, 0, 1, 0, 3, 0, 13, 3, 8, 12,   0, 4, 0, 2, 0, 13]
+    Array 1: [1.6, 0,  0, 4, 0, 2, 0, 3,  0, 0, 6, 2.3, 0, 3, 0, 1,  0]
+    Array 2: [  0, 4, 12, 0, 1, 0, 3, 0, 13, 3, 8,   0, 4, 0, 2, 0, 14]
+    
+## Workflow
+- [x] Common binary operators(+,-,*,/) support.
+- [ ] Support for unary functions such as sin, cos, log, !(fact), etc.
+- [ ] A string-to-input-format convertor.
+- [ ] A UI using using JavaFX.
+- [ ] A UI using QML and Java.
