@@ -85,7 +85,7 @@ empty space and clubbing of operators. This values can be mapped to those functi
 - [x] Support for default unary functions such as sin, cos, log, !(fact), etc.
 - [x] Testing and finishing touches for the above.
 - [x] Abstraction support with default definitions to implement customizability.
-- [ ] Complete testing for operator precedence customizability.(Currently halfway done)
+- [x] Complete testing for operator precedence customizability.
 - [ ] Operator metadata support and testing.
 - [ ] Read IDs from text file(csv).
 - [ ] A string-to-input-format convertor.
