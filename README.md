@@ -4,7 +4,7 @@ A customizable expression parsing implementation using java.
   - Where the operator precedence is to be changed, or extra mathematical functions have to be implemented.
     (You can follow, SAMDOB instead of BODMAS, or any precedence you want.)
   - Where operators, expression, or anything has to be masked as a mathematical function.
-    (Example: You can have the user show '+', but do '-' operation.
+    (Example: You can have the user show '+', but do '-' operation.)
   - An application with a UI could be simplified using this, since there are no string parsing requirements(although available).
 
 ## IDs
