@@ -86,7 +86,6 @@ empty space and clubbing of operators. This values can be mapped to those functi
 - [x] Testing and finishing touches for the above.
 - [x] Abstraction support with default definitions to implement customizability.
 - [x] Complete testing for operator precedence customizability.
-- [ ] Operator metadata support and testing.
-- [ ] Read IDs from text file(csv).
 - [ ] A string-to-input-format convertor.
+- [ ] Operator metadata support and testing.
 - [ ] A default UI using using JavaFX.
