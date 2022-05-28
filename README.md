@@ -1,4 +1,4 @@
-# customOperatorPrecedenceCals
+# customOperatorPrecedenceCalc
 A customizable expression parsing implementation using java.
 ### Uses:
   - Where the operator precedence is to be changed, or extra mathematical functions have to be implemented.
