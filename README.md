@@ -1,4 +1,4 @@
-# customOperatorPrecedenceCalc
+# customOperatorPrecedenceCalc (DEPRECATED)
 An expression parsing implementation to change operator precedence, mask operators using java.
 ### Uses:
   - Where the operator precedence is to be changed, or extra mathematical functions have to be implemented.
@@ -86,6 +86,6 @@ empty space and clubbing of operators. This values can be mapped to those functi
 - [x] Testing and finishing touches for the above.
 - [x] Abstraction support with default definitions to implement customizability.
 - [x] Complete testing for operator precedence customizability.
-- [ ] A string-to-input-format convertor.
-- [ ] Operator metadata support and testing.
-- [ ] A default UI using using JavaFX.
+- [ ] ~~A string-to-input-format convertor.~~
+- [ ] ~~Operator metadata support and testing.~~
+- [ ] ~~A default UI using using JavaFX.~~
